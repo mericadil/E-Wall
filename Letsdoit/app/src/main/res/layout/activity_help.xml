@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4bbee3"
+    tools:context=".Help">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="250dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="285dp"
+        android:text="Sorted by Upwards Button"
+        android:textColor="#332a9f"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/sortLike"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/titleHelp"
+        android:layout_width="262dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/help"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="244dp"
+        android:text="Add an Entry Button"
+        android:textColor="#332a9f"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/addPost"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="250dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:text="Search User Button"
+        android:textColor="#332a9f"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="250dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="200dp"
+        android:text="Logout Button"
+        android:textColor="#332a9f"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/logoutBut"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="250dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:text="Sorted by Date Button"
+        android:textColor="#332a9f"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="250dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="372dp"
+        android:text="Upvote/Downvote Buttons"
+        android:textColor="#332a9f"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="126dp" />
+
+    <ImageView
+        android:id="@+id/logoutBut"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:background="#4bbee3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <ImageView
+        android:id="@+id/searchBut"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="152dp"
+        android:background="#4bbee3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/search_button" />
+
+    <ImageView
+        android:id="@+id/addPost"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:background="#4bbee3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/add_button"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <ImageView
+        android:id="@+id/sortLike"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#4bbee3"
+        app:layout_constraintEnd_toStartOf="@+id/sortTime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sort_like_button"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <ImageView
+        android:id="@+id/searchBut"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="324dp"
+        android:background="#4bbee3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sort_time_button" />
+
+    <ImageView
+        android:id="@+id/searchBut"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="368dp"
+        android:background="#4bbee3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/upvote_button" />
+
+    <ImageView
+        android:id="@+id/searchBut"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="368dp"
+        android:background="#4bbee3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/downvote_button" />
+
+    <ScrollView
+        android:layout_width="330dp"
+        android:layout_height="249dp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="442dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="How to use E-WALL? \n\n   E·WALL is an app that stores memories and
+                    thoughts.\n \n   In order to write an entry, you have to go close to a wall location. If you do not know the locations of the walls, you can simply use the map feature. Whenever you are close to a E·WALL, an alert will appear that says 'You are near a E·WALL'. Then, go back to main menu and use the open camera button. After interacting with the E·WALL, you will be able to write entries by clicking 'Add Entry' button."
+                android:textColor="#332a9f"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                app:fontFamily="@font/Ubuntu-MI" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

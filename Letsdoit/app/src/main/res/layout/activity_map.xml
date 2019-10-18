@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:id="@+id/linearLayout2">
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapview"
+        tilesource="Mapnik"
+        android:layout_width="wrap_content"
+        android:layout_height="750dp"
+        tools:layout_conversion_absoluteHeight="637dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="397dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/values"
+        android:text="Open Camera"
+
+
+        tools:layout_conversion_absoluteHeight="63dp"
+        tools:layout_conversion_absoluteWidth="126dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="637dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:text="                               ©OpenStreepMap contributors" />
+
+
+</LinearLayout>

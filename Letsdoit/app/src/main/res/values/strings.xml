@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">E•WALL</string>
+
+    <string name="logo">E•WALL</string>
+    <string name="copyright">Copyright © 2019 - Revolver.All Rights Reserved</string>
+
+    <string name="username">username : </string>
+    <string name="password">password : </string>
+    <string name="guestMode">GUEST MODE</string>
+
+
+    <string name="login">LOG IN</string>
+    <string name="newAccount">CREATE NEW ACCOUNT</string>
+    <string name="title_activity_options">Options</string>
+
+    <string name="openCamera">OPEN THE CAMERA</string>
+    <string name="placesOfWalls">PLACES OF WALLS</string>
+    <string name="settings">SETTINGS</string>
+    <string name="help">HELP</string>
+
+</resources>
